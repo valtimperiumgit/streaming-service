@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "StreamingService.Contracts/1.0.0": {
+        "dependencies": {
+          "StreamingService.Domain": "1.0.0"
+        },
+        "runtime": {
+          "StreamingService.Contracts.dll": {}
+        }
+      },
+      "StreamingService.Domain/1.0.0": {
+        "runtime": {
+          "StreamingService.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StreamingService.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StreamingService.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

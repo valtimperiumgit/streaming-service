@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hM9xwjH/BIkpqS3Oqyr23Ni0Tjac+iKvNi0ARcd1jV8=",
+  "Source": "StreamingService.Api",
+  "BasePath": "_content/StreamingService.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

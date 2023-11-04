@@ -1,0 +1,17 @@
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Persistence\bin\Debug\net7.0\StreamingService.Persistence.deps.json
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Persistence\bin\Debug\net7.0\StreamingService.Persistence.runtimeconfig.json
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Persistence\bin\Debug\net7.0\StreamingService.Persistence.dll
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Persistence\bin\Debug\net7.0\StreamingService.Persistence.pdb
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Persistence\bin\Debug\net7.0\StreamingService.Domain.dll
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Persistence\bin\Debug\net7.0\StreamingService.Domain.pdb
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Persistence\obj\Debug\net7.0\StreamingService.Persistence.csproj.AssemblyReference.cache
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Persistence\obj\Debug\net7.0\StreamingService.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Persistence\obj\Debug\net7.0\StreamingService.Persistence.AssemblyInfoInputs.cache
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Persistence\obj\Debug\net7.0\StreamingService.Persistence.AssemblyInfo.cs
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Persistence\obj\Debug\net7.0\StreamingService.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Persistence\obj\Debug\net7.0\StreamingService.Persistence.csproj.CopyComplete
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Persistence\obj\Debug\net7.0\StreamingService.Persistence.dll
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Persistence\obj\Debug\net7.0\refint\StreamingService.Persistence.dll
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Persistence\obj\Debug\net7.0\StreamingService.Persistence.pdb
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Persistence\obj\Debug\net7.0\StreamingService.Persistence.genruntimeconfig.cache
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Persistence\obj\Debug\net7.0\ref\StreamingService.Persistence.dll

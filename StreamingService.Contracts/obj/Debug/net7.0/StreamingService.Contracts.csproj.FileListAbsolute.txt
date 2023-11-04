@@ -1,0 +1,15 @@
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Contracts\bin\Debug\net7.0\StreamingService.Contracts.deps.json
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Contracts\bin\Debug\net7.0\StreamingService.Contracts.dll
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Contracts\bin\Debug\net7.0\StreamingService.Contracts.pdb
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Contracts\obj\Debug\net7.0\StreamingService.Contracts.csproj.AssemblyReference.cache
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Contracts\obj\Debug\net7.0\StreamingService.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Contracts\obj\Debug\net7.0\StreamingService.Contracts.AssemblyInfoInputs.cache
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Contracts\obj\Debug\net7.0\StreamingService.Contracts.AssemblyInfo.cs
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Contracts\obj\Debug\net7.0\StreamingService.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Contracts\obj\Debug\net7.0\StreamingService.Contracts.dll
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Contracts\obj\Debug\net7.0\refint\StreamingService.Contracts.dll
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Contracts\obj\Debug\net7.0\StreamingService.Contracts.pdb
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Contracts\obj\Debug\net7.0\ref\StreamingService.Contracts.dll
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Contracts\bin\Debug\net7.0\StreamingService.Domain.dll
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Contracts\bin\Debug\net7.0\StreamingService.Domain.pdb
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Contracts\obj\Debug\net7.0\StreamingService.Contracts.csproj.CopyComplete
