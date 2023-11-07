@@ -3,6 +3,7 @@ using StreamingService.Application.Abstractions.Authentication;
 using StreamingService.Application.Core.Cryptography;
 using StreamingService.Application.Core.Messaging;
 using StreamingService.Contracts.Authentication;
+using StreamingService.Contracts.Authentication.Responses;
 using StreamingService.Contracts.User;
 using StreamingService.Domain.Core.Errors;
 using StreamingService.Domain.Core.Primitives.Result;
@@ -41,7 +42,7 @@ internal class LoginCommandHandler : ICommandHandler<LoginCommand, Result<UserAu
         return Result.Success(new UserAuthenticationResponse
         {
             User = new UserResponse(user),
-            AccessToken = _jwtProvider.Create(Claims.ForUser(user))
+            Token = _jwtProvider.Create(Claims.ForUser(user))
         });
     }
 }

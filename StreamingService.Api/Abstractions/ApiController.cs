@@ -1,9 +1,8 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using StreamingService.Application.Core.Messaging;
-using StreamingService.Domain.Core.Primitives;
 using StreamingService.Domain.Core.Primitives.Result;
-using StreamingService.Domain.Shared;
+using Error = StreamingService.Domain.Core.Primitives.Error;
 
 namespace StreamingService.Api.Abstractions;
 
@@ -13,8 +12,8 @@ public abstract class ApiController : ControllerBase
     protected readonly ISender Sender;
 
     protected ApiController(ISender sender) => Sender = sender;
-    
-    protected IActionResult HandleFailure(Result result)
+
+    private IActionResult HandleFailure(Result result)
     {
         return BadRequest(CreateProblemDetails("Bad Request", StatusCodes.Status400BadRequest, result.Error));
     }
@@ -42,7 +41,9 @@ public abstract class ApiController : ControllerBase
             .FirstOrDefault();
     }
 
-    protected async Task<IActionResult> DoCommand<T>(ICommand<Result<T>> command, CancellationToken cancellationToken)
+    protected async Task<IActionResult> DoCommand<T>(
+        ICommand<Domain.Core.Primitives.Result.Result<T>> command,
+        CancellationToken cancellationToken)
     {
         var result = await Sender.Send(command, cancellationToken);
         return result.IsFailure ? HandleFailure(result) : Ok(result.Value);

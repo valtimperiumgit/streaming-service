@@ -5,6 +5,24 @@ namespace StreamingService.Domain.Media.Movie;
 
 public class Movie
 {
+    public Movie(
+        Guid id,
+        string title,
+        string description,
+        int duration,
+        int maturityRating,
+        DateTime releaseDate,
+        int countryId)
+    {
+        Id = id;
+        Title = title;
+        Description = description;
+        Duration = duration;
+        MaturityRating = maturityRating;
+        ReleaseDate = releaseDate;
+        CountryId = countryId;
+    }
+
     public Guid Id { get; set; }
     
     public string Title { get; set; }

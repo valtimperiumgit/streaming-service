@@ -1,5 +1,4 @@
 using System.Security.Claims;
-using StreamingService.Domain.Admin;
 using StreamingService.Domain.User;
 
 namespace StreamingService.Application.Abstractions.Authentication;
@@ -16,7 +15,7 @@ public static class Claims
         };
     }
     
-    public static Claim[] ForAdmin(Admin admin)
+    public static Claim[] ForAdmin(Domain.Admin.Admin admin)
     {
         return new Claim[]
         {

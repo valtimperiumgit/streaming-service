@@ -1,6 +1,7 @@
 using EventReminder.Domain.Core.Primitives.Result;
 using StreamingService.Application.Core.Messaging;
 using StreamingService.Contracts.Authentication;
+using StreamingService.Contracts.Authentication.Responses;
 using StreamingService.Domain.Core.Primitives.Result;
 
 namespace StreamingService.Application.Authentication.Commands.Login;

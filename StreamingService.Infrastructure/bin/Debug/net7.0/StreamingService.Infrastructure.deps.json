@@ -8,11 +8,179 @@
     ".NETCoreApp,Version=v7.0": {
       "StreamingService.Infrastructure/1.0.0": {
         "dependencies": {
+          "AWSSDK.Core": "3.7.204.12",
+          "AWSSDK.S3": "3.7.205.22",
+          "MediaInfo.Wrapper.Core": "21.9.3",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.13",
           "StreamingService.Application": "1.0.0"
         },
         "runtime": {
           "StreamingService.Infrastructure.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.204.12": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.204.12"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.205.22": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.204.12"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.205.22"
+          }
+        }
+      },
+      "MediaInfo.Core.Native/21.9.1": {
+        "runtimeTargets": {
+          "runtimes/centos.7-x64/native/libmediainfo.so": {
+            "rid": "centos.7-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/centos.8-x64/native/libmediainfo.so": {
+            "rid": "centos.8-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/debian.10-x64/native/libmediainfo.so": {
+            "rid": "debian.10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/debian.11-x64/native/libmediainfo.so": {
+            "rid": "debian.11-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/debian.9-x64/native/libmediainfo.so": {
+            "rid": "debian.9-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/fedora.32-x64/native/libmediainfo.so": {
+            "rid": "fedora.32-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/fedora.33-x64/native/libmediainfo.so": {
+            "rid": "fedora.33-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/fedora.34-x64/native/libmediainfo.so": {
+            "rid": "fedora.34-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/opensuse-x64/native/libmediainfo.so": {
+            "rid": "opensuse-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/opensuse.15.1-x64/native/libmediainfo.so": {
+            "rid": "opensuse.15.1-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx.10.15-x64/native/libmediainfo.dylib": {
+            "rid": "osx.10.15-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx.11-x64/native/libmediainfo.dylib": {
+            "rid": "osx.11-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/rhel.7-x64/native/libmediainfo.so": {
+            "rid": "rhel.7-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/rhel.8-x64/native/libmediainfo.so": {
+            "rid": "rhel.8-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.16.04-x64/native/libmediainfo.so": {
+            "rid": "ubuntu.16.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.18.04-x64/native/libmediainfo.so": {
+            "rid": "ubuntu.18.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.20.04-x64/native/libmediainfo.so": {
+            "rid": "ubuntu.20.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ubuntu.21.04-x64/native/libmediainfo.so": {
+            "rid": "ubuntu.21.04-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libcrypto-3-x64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "3.1.0.0"
+          },
+          "runtimes/win-x64/native/libcurl.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "7.80.0.0"
+          },
+          "runtimes/win-x64/native/libmediainfo.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "21.9.0.0"
+          },
+          "runtimes/win-x64/native/libssl-3-x64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "3.1.0.0"
+          },
+          "runtimes/win-x86/native/libcrypto-3.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "3.1.0.0"
+          },
+          "runtimes/win-x86/native/libcurl.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "7.80.0.0"
+          },
+          "runtimes/win-x86/native/libmediainfo.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "21.9.0.0"
+          },
+          "runtimes/win-x86/native/libssl-3.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "3.1.0.0"
+          }
+        }
+      },
+      "MediaInfo.Wrapper.Core/21.9.3": {
+        "dependencies": {
+          "MediaInfo.Core.Native": "21.9.1",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/MediaInfo.Wrapper.Core.dll": {
+            "assemblyVersion": "21.9.3.0",
+            "fileVersion": "21.9.3.0"
+          }
         }
       },
       "MediatR/11.1.0": {
@@ -46,6 +214,7 @@
         }
       },
       "Microsoft.CSharp/4.5.0": {},
+      "Microsoft.Extensions.Logging.Abstractions/6.0.2": {},
       "Microsoft.IdentityModel.JsonWebTokens/6.15.1": {
         "dependencies": {
           "Microsoft.IdentityModel.Tokens": "6.15.1"
@@ -146,6 +315,34 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AWSSDK.Core/3.7.204.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iTiZuiq04nUEgTVvydFg5yTtBNCauztVXA/nbibb875g3xFk1ZDxnVw6MdBI8jDT9tuPHg8I5AG4qN7rWYnUAA==",
+      "path": "awssdk.core/3.7.204.12",
+      "hashPath": "awssdk.core.3.7.204.12.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.205.22": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NTESNeLK7bfzlkBk4PE1vESrkd+er5h5fL90Lox3eOUu+bLN9bS1/5h2mnMMUc5PvQlH+nemPGd6jujp95Gk7A==",
+      "path": "awssdk.s3/3.7.205.22",
+      "hashPath": "awssdk.s3.3.7.205.22.nupkg.sha512"
+    },
+    "MediaInfo.Core.Native/21.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2jXjoFCAzI2XKRPGZNzynIebAlKSvMhUzseNjH06TrS74Kb0F4mr0RF881Z+k6POrNdt/I+42B/TJu98UL39Dg==",
+      "path": "mediainfo.core.native/21.9.1",
+      "hashPath": "mediainfo.core.native.21.9.1.nupkg.sha512"
+    },
+    "MediaInfo.Wrapper.Core/21.9.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CJj9kxRIyVJ3BG42GzMNfM3q20mzuUDimec0FZ83uMN9eyw+RtH+GezY64FG4aqTTJy6LiIyldmo5YXpaz/l1Q==",
+      "path": "mediainfo.wrapper.core/21.9.3",
+      "hashPath": "mediainfo.wrapper.core.21.9.3.nupkg.sha512"
+    },
     "MediatR/11.1.0": {
       "type": "package",
       "serviceable": true,
@@ -173,6 +370,13 @@
       "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
       "path": "microsoft.csharp/4.5.0",
       "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pwXCZKaA7m5wgmCj49dW+H1RPSY7U62SKLTQYCcavf/k3Nyt/WnBgAjG4jMGnwy9rElfAZ2KvxvM5CJzJWG0hg==",
+      "path": "microsoft.extensions.logging.abstractions/6.0.2",
+      "hashPath": "microsoft.extensions.logging.abstractions.6.0.2.nupkg.sha512"
     },
     "Microsoft.IdentityModel.JsonWebTokens/6.15.1": {
       "type": "package",

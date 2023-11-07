@@ -1,8 +1,10 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
+using StreamingService.Api.GraphQL;
 using StreamingService.Api.Middleware;
 using StreamingService.Infrastructure;
 using StreamingService.Persistence;
+using StreamingService.Persistence.DbContexts;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +18,14 @@ builder.Services.AddMediatR(StreamingService.Application.AssemblyReference.Assem
 builder.Services
     .AddInfrastructure(builder.Configuration)
     .AddPersistence(builder.Configuration);
+
+builder.Services
+    .AddGraphQLServer()
+    .RegisterDbContext<AppDbContext>()
+    .AddQueryType<Query>()
+    .AddProjections()
+    .AddFiltering()
+    .AddSorting();
 
 var app = builder.Build();
 
@@ -37,6 +47,8 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapGraphQL();
 
 app.Run();
 

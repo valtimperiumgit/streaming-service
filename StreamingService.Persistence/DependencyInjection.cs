@@ -19,6 +19,8 @@ public static class DependencyInjection
             .UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
         services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IAdminRepository, AdminRepository>();
+        services.AddScoped<IMovieRepository, MovieRepository>();
         
         return services;
     }

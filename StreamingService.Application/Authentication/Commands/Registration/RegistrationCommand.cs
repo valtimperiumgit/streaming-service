@@ -1,6 +1,7 @@
 using System.Windows.Input;
 using StreamingService.Application.Core.Messaging;
 using StreamingService.Contracts.Authentication;
+using StreamingService.Contracts.Authentication.Responses;
 using StreamingService.Domain.Core.Primitives.Result;
 using StreamingService.Domain.Enums;
 using StreamingService.Domain.User;
