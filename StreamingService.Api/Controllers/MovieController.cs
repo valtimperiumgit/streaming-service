@@ -2,6 +2,7 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using StreamingService.Api.Abstractions;
 using StreamingService.Application.Movie.Commands.CreateMovie;
+using StreamingService.Application.Movie.Queries.GetMovies;
 using StreamingService.Contracts.Movie.Requests;
 
 namespace StreamingService.Api.Controllers;
@@ -21,9 +22,8 @@ public class MovieController : ApiController
     }
     
     [HttpGet]
-    public async Task<IActionResult> GetMovies()
+    public async Task<IActionResult> GetMovies(CancellationToken cancellationToken)
     {
-        var createMovieCommand = new CreateMovieCommand(request);
-        return await DoCommand(createMovieCommand, cancellationToken);
+        return await DoQuery(new GetMoviesQuery(), cancellationToken);
     }
 }

@@ -48,4 +48,12 @@ public abstract class ApiController : ControllerBase
         var result = await Sender.Send(command, cancellationToken);
         return result.IsFailure ? HandleFailure(result) : Ok(result.Value);
     }
+    
+    protected async Task<IActionResult> DoQuery<T>(
+        IQuery<T> query,
+        CancellationToken cancellationToken)
+    {
+        var result = await Sender.Send(query, cancellationToken);
+        return Ok(result);
+    }
 }
