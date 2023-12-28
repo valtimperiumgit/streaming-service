@@ -198,3 +198,4 @@ C:\Users\admin\RiderProjects\StreamingService\StreamingService.Tests\bin\Debug\n
 C:\Users\admin\RiderProjects\StreamingService\StreamingService.Tests\bin\Debug\net7.0\runtimes\win-x86\native\libcurl.dll
 C:\Users\admin\RiderProjects\StreamingService\StreamingService.Tests\bin\Debug\net7.0\runtimes\win-x86\native\libmediainfo.dll
 C:\Users\admin\RiderProjects\StreamingService\StreamingService.Tests\bin\Debug\net7.0\runtimes\win-x86\native\libssl-3.dll
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Tests\obj\Debug\net7.0\StreamingService.Tests.sourcelink.json

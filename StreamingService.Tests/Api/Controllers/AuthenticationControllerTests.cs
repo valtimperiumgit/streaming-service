@@ -4,6 +4,7 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using StreamingService.Api.Controllers;
 using StreamingService.Contracts.Authentication;
+using StreamingService.Contracts.Authentication.Requests;
 using StreamingService.Domain.Core.Primitives.Result;
 
 namespace StreamingService.Tests.Api.Controllers;

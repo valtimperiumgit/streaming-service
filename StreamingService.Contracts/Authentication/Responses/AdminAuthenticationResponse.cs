@@ -1,6 +1,6 @@
 using StreamingService.Domain.Admin;
 
-namespace StreamingService.Contracts.Authentication;
+namespace StreamingService.Contracts.Authentication.Responses;
 
 public class AdminAuthenticationResponse
 {

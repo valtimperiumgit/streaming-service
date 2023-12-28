@@ -26,17 +26,17 @@ public class AppDbContext : DbContext
     
     public DbSet<MovieGenre> MovieGenres { get; set; }
     
-    public DbSet<Season> Seasons { get; set; }
+    public DbSet<Season?> Seasons { get; set; }
     
     public DbSet<TvShow> TVShows { get; set; }
     
-    public DbSet<TVShowActor> TVShowActors { get; set; }
+    public DbSet<TvShowActor> TVShowActors { get; set; }
     
-    public DbSet<TVShowCreator> TVShowCreators { get; set; }
+    public DbSet<TvShowCreator> TVShowCreators { get; set; }
 
-    public DbSet<TVShowGenre> TVShowGenres { get; set; }
+    public DbSet<TvShowGenre> TVShowGenres { get; set; }
     
-    public DbSet<TVShowEpisode> TVShowEpisodes { get; set; }
+    public DbSet<TvShowEpisode> TVShowEpisodes { get; set; }
     
     public DbSet<Country> Countries { get; set; }
     

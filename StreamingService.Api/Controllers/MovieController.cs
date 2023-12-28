@@ -15,15 +15,15 @@ public class MovieController : ApiController
     }
 
     [HttpPost]
-    public async Task<IActionResult> CreateMovie([FromBody] CreateMovieRequest request, CancellationToken cancellationToken)
+    public Task<IActionResult> CreateMovie([FromBody] CreateMovieRequest request, CancellationToken cancellationToken)
     {
         var createMovieCommand = new CreateMovieCommand(request);
-        return await DoCommand(createMovieCommand, cancellationToken);
+        return DoCommand(createMovieCommand, cancellationToken);
     }
     
     [HttpGet]
-    public async Task<IActionResult> GetMovies(CancellationToken cancellationToken)
+    public Task<IActionResult> GetMovies(CancellationToken cancellationToken)
     {
-        return await DoQuery(new GetMoviesQuery(), cancellationToken);
+        return DoQuery(new GetMoviesQuery(), cancellationToken);
     }
 }

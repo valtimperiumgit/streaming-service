@@ -113,3 +113,4 @@ C:\Users\admin\RiderProjects\StreamingService\StreamingService.Api\bin\Debug\net
 C:\Users\admin\RiderProjects\StreamingService\StreamingService.Api\bin\Debug\net7.0\runtimes\win-x86\native\libcurl.dll
 C:\Users\admin\RiderProjects\StreamingService\StreamingService.Api\bin\Debug\net7.0\runtimes\win-x86\native\libmediainfo.dll
 C:\Users\admin\RiderProjects\StreamingService\StreamingService.Api\bin\Debug\net7.0\runtimes\win-x86\native\libssl-3.dll
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Api\obj\Debug\net7.0\StreamingService.Api.sourcelink.json

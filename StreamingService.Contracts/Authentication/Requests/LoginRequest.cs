@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace StreamingService.Contracts.Authentication;
+namespace StreamingService.Contracts.Authentication.Requests;
 
 public class LoginRequest
 {

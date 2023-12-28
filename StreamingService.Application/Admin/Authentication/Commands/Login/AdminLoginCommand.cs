@@ -1,5 +1,6 @@
 using StreamingService.Application.Core.Messaging;
 using StreamingService.Contracts.Authentication;
+using StreamingService.Contracts.Authentication.Responses;
 using StreamingService.Domain.Core.Primitives.Result;
 
 namespace StreamingService.Application.Admin.Authentication.Commands.Login;

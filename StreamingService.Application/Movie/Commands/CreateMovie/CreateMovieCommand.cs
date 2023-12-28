@@ -51,5 +51,4 @@ public class CreateMovieCommand : ICommand<Result<Domain.Media.Movie.Movie>>
     {
         return new Domain.Media.Movie.Movie(Guid.NewGuid(), Title, Description, duration, MaturityRating, ReleaseDate, CountryId);
     }
-    
 }

@@ -1,10 +1,17 @@
 namespace StreamingService.Domain.Media.TVShow;
 
-public class TVShowActor
+public class TvShowActor
 {
+    public TvShowActor(Guid tvShowId, Guid actorId)
+    {
+        Id = Guid.NewGuid();
+        TvShowId = tvShowId;
+        ActorId = actorId;
+    }
+    
     public Guid Id { get; set; }
     
-    public Guid TVShowId { get; set; }
+    public Guid TvShowId { get; set; }
     
     public Guid ActorId { get; set; }
     

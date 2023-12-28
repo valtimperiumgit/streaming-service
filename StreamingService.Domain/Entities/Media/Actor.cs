@@ -11,5 +11,5 @@ public class Actor
     
     public ICollection<MovieActor> MovieActors { get; set; }
     
-    public ICollection<TVShowActor> TVShowActors { get; set; }
+    public ICollection<TvShowActor> TVShowActors { get; set; }
 }

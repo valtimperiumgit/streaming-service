@@ -19,3 +19,4 @@ C:\Users\admin\RiderProjects\StreamingService\StreamingService.Contracts\bin\Deb
 C:\Users\admin\RiderProjects\StreamingService\StreamingService.Contracts\bin\Debug\net7.0\System.IO.Pipelines.dll
 C:\Users\admin\RiderProjects\StreamingService\StreamingService.Contracts\bin\Debug\net7.0\Microsoft.AspNetCore.Connections.Abstractions.dll
 C:\Users\admin\RiderProjects\StreamingService\StreamingService.Contracts\bin\Debug\net7.0\Microsoft.Extensions.Features.dll
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Contracts\obj\Debug\net7.0\StreamingService.Contracts.sourcelink.json

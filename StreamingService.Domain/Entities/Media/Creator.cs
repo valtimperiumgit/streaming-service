@@ -11,5 +11,5 @@ public class Creator
     
     public ICollection<MovieCreator> MovieCreators { get; set; }
     
-    public ICollection<TVShowCreator> TVShowCreators { get; set; }
+    public ICollection<TvShowCreator> TVShowCreators { get; set; }
 }

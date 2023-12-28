@@ -2,6 +2,7 @@ using StreamingService.Application.Abstractions.Authentication;
 using StreamingService.Application.Core.Cryptography;
 using StreamingService.Application.Core.Messaging;
 using StreamingService.Contracts.Authentication;
+using StreamingService.Contracts.Authentication.Responses;
 using StreamingService.Domain.Core.Errors;
 using StreamingService.Domain.Core.Primitives.Result;
 using StreamingService.Domain.Repositories;

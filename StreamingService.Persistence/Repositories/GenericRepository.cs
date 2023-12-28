@@ -14,7 +14,7 @@ public abstract class GenericRepository<TEntity>
         DbContext = dbContext;
     }
 
-    public async Task<TEntity?> GetByProperty(string propertyName, object value, CancellationToken cancellationToken)
+    public Task<TEntity?> GetByProperty(string propertyName, object value, CancellationToken cancellationToken)
     {
         var parameter = Expression.Parameter(typeof(TEntity), "entity");
         var property = typeof(TEntity).GetProperty(propertyName);
@@ -28,7 +28,7 @@ public abstract class GenericRepository<TEntity>
         var equalTo = Expression.Equal(propertyAccess, Expression.Constant(value));
         var lambda = Expression.Lambda<Func<TEntity, bool>>(equalTo, parameter);
 
-        return await DbContext.Set<TEntity>().FirstOrDefaultAsync(lambda, cancellationToken: cancellationToken);
+        return DbContext.Set<TEntity>().FirstOrDefaultAsync(lambda, cancellationToken: cancellationToken);
     }
 
     public async Task<List<TEntity>> Get(CancellationToken cancellationToken)

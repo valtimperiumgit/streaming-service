@@ -11,5 +11,5 @@ public class Genre
     
     public ICollection<MovieGenre> MovieGenres { get; set; }
     
-    public ICollection<TVShowGenre> TVShowGenres { get; set; }
+    public ICollection<TvShowGenre> TVShowGenres { get; set; }
 }

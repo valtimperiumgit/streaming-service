@@ -15,3 +15,4 @@ C:\Users\admin\RiderProjects\StreamingService\StreamingService.Persistence\obj\D
 C:\Users\admin\RiderProjects\StreamingService\StreamingService.Persistence\obj\Debug\net7.0\StreamingService.Persistence.pdb
 C:\Users\admin\RiderProjects\StreamingService\StreamingService.Persistence\obj\Debug\net7.0\StreamingService.Persistence.genruntimeconfig.cache
 C:\Users\admin\RiderProjects\StreamingService\StreamingService.Persistence\obj\Debug\net7.0\ref\StreamingService.Persistence.dll
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Persistence\obj\Debug\net7.0\StreamingService.Persistence.sourcelink.json

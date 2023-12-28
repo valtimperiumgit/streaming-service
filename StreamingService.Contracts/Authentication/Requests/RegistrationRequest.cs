@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using StreamingService.Domain.Enums;
 
-namespace StreamingService.Contracts.Authentication;
+namespace StreamingService.Contracts.Authentication.Requests;
 
 public class RegistrationRequest
 {

@@ -17,4 +17,18 @@ public static class DomainErrors
             "User.UserAlreadyExist",
             "The user with specified email already exist.");
     }
+    
+    public static class TvShow
+    {
+        public static Error TvShowNotFound => new(
+            "TvShow.TvShowNotFound",
+            "TvShow not found.");
+    }
+    
+    public static class Season
+    {
+        public static Error SeasonAlreadyExist => new(
+            "Season.SeasonAlreadyExist",
+            "Season with this number already exist.");
+    }
 }

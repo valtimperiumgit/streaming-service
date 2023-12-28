@@ -2,8 +2,8 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using StreamingService.Api.Abstractions;
 using StreamingService.Application.Admin.Authentication.Commands.Login;
-using StreamingService.Application.Authentication.Commands.Login;
 using StreamingService.Contracts.Authentication;
+using StreamingService.Contracts.Authentication.Requests;
 
 namespace StreamingService.Api.Controllers;
 

@@ -1,7 +1,6 @@
 C:\Users\admin\RiderProjects\StreamingService\StreamingService.Domain\bin\Debug\net7.0\StreamingService.Domain.deps.json
 C:\Users\admin\RiderProjects\StreamingService\StreamingService.Domain\bin\Debug\net7.0\StreamingService.Domain.dll
 C:\Users\admin\RiderProjects\StreamingService\StreamingService.Domain\bin\Debug\net7.0\StreamingService.Domain.pdb
-C:\Users\admin\RiderProjects\StreamingService\StreamingService.Domain\obj\Debug\net7.0\StreamingService.Domain.csproj.AssemblyReference.cache
 C:\Users\admin\RiderProjects\StreamingService\StreamingService.Domain\obj\Debug\net7.0\StreamingService.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\admin\RiderProjects\StreamingService\StreamingService.Domain\obj\Debug\net7.0\StreamingService.Domain.AssemblyInfoInputs.cache
 C:\Users\admin\RiderProjects\StreamingService\StreamingService.Domain\obj\Debug\net7.0\StreamingService.Domain.AssemblyInfo.cs
@@ -10,3 +9,4 @@ C:\Users\admin\RiderProjects\StreamingService\StreamingService.Domain\obj\Debug\
 C:\Users\admin\RiderProjects\StreamingService\StreamingService.Domain\obj\Debug\net7.0\refint\StreamingService.Domain.dll
 C:\Users\admin\RiderProjects\StreamingService\StreamingService.Domain\obj\Debug\net7.0\StreamingService.Domain.pdb
 C:\Users\admin\RiderProjects\StreamingService\StreamingService.Domain\obj\Debug\net7.0\ref\StreamingService.Domain.dll
+C:\Users\admin\RiderProjects\StreamingService\StreamingService.Domain\obj\Debug\net7.0\StreamingService.Domain.sourcelink.json
